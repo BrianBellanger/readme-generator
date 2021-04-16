@@ -142,9 +142,9 @@ ${readmeData.license}
 ## Questions
 =========
 
-Email:    [Email Developer: ${readmeData.email}](mailto:${readmeData.email}) with additional questions or comments
+Email:    [${readmeData.email}](mailto:${readmeData.email}) with additional questions or comments
 
-GitHub:   [github: github.com/${readmeData.github}](https://github.com/${readmeData.github})`
+GitHub:   [github.com/${readmeData.github}](https://github.com/${readmeData.github})`
 
   writeToFile(readmeText);
   })};
